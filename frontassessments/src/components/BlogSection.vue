@@ -12,7 +12,7 @@
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
-                      <v-img height="450px" src="~@/assets/img/lms1.png" contain></v-img>
+                      <v-img height="450px" src="~@/assets/img/lms1.png" class="lazy" contain></v-img>
                     </div>
                   </v-card-text>
                 </div>
@@ -76,7 +76,7 @@
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
-                      <v-img height="450px" src="~@/assets/img/lms1.png" contain></v-img>
+                      <v-img height="450px" src="~@/assets/img/lms1.png" class="lazy" contain></v-img>
                     </div>
                   </v-card-text>
                 </div>
@@ -277,118 +277,7 @@ section {
 <script>
 export default {
   data: () => ({
-    planos: [
-      {
-        title: "Básico",
-        price: "R$100,00",
-        img: "f1.png",
-        features: [
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 1",
-          },
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 2",
-          },
-          {
-            icon: {
-              text: "mdi-cancel",
-              color: "red",
-            },
-            text: "Feature 3",
-          },
-          {
-            icon: {
-              text: "mdi-cancel",
-              color: "red",
-            },
-            text: "Feature 4",
-          },
-        ],
-      },
-      {
-        title: "Padrão",
-        price: "R$150,00",
-        img: "f2.png",
-        features: [
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 1",
-            color: "success",
-          },
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 2",
-          },
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 3",
-            color: "success",
-          },
-          {
-            icon: {
-              text: "mdi-cancel",
-              color: "red",
-            },
-            text: "Feature 4",
-          },
-        ],
-      },
-      {
-        title: "Premium",
-        price: "R$250,00",
-        img: "f3.png",
-        features: [
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 1",
-            color: "success",
-          },
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 2",
-          },
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 3",
-            color: "success",
-          },
-          {
-            icon: {
-              text: "mdi-check",
-              color: "success",
-            },
-            text: "Feature 4",
-            color: "success",
-          },
-        ],
-      },
-    ],
+    
   }),
   computed: {
     size() {
