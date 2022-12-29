@@ -129,7 +129,7 @@
       </v-row>
       <v-sheet style="background-color: beige" width="100%">
         <v-row>
-          <v-col>
+          <v-col  class="col-12 col-md-6">
             <v-card-title class="justify-center">
            <v-card color="transparent" flat>
             <v-card-title class="justify-left">
@@ -150,7 +150,7 @@
            </v-card>
            </v-card-title>
           </v-col>
-          <v-col>
+          <v-col  class="col-12 col-md-6">
             <v-card-title class="justify-center"  style="margin-bottom: -25px">
               <v-img height="450px" src="~@/assets/img/testimonial.png" contain></v-img>
             </v-card-title>
